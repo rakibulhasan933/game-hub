@@ -1,9 +1,10 @@
+import Header from "@/components/Header";
 
 
 export default function Home() {
   return (
-    <main>
-      <h1>Your Server Running On Port:- {process.env.HOST}</h1>;
+    <main className="my-16">
+      <Header />
     </main>
   )
 }
