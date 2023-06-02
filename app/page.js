@@ -1,9 +1,9 @@
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
     <main>
-      <h2>Hello World</h2>
+      <h1>Your Server Running On Port:- {process.env.HOST}</h1>;
     </main>
   )
 }
