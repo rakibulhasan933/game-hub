@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
 
 	return (
-		<div className="min-h-screen hero">
+		<div className="h-screen hero">
 			<div className="items-center justify-center my-12 text-center text-neutral-content">
 				<div className="w-full">
 					<button className="px-5 py-3 my-12 font-semibold text-black bg-white rounded-md border-lime-600 hover:bg-lime-500 hover:text-white ">Get Started</button>

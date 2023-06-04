@@ -10,7 +10,7 @@ import Image from "next/image";
 
 function YourGames() {
 	return (
-		<div className="my-20">
+		<div className="py-20">
 			<Swiper
 				pagination={{
 					dynamicBullets: true,

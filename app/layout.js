@@ -14,10 +14,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className="bg-fuchsia-900">
-          <div className="mx-20">
-            <Navbar />
-            {children}
-          </div>
+          <Navbar />
+          {children}
         </div>
       </body>
     </html>

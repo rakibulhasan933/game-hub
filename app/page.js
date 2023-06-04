@@ -5,10 +5,12 @@ import YourGames from "@/components/YourGames";
 
 export default function Home() {
   return (
-    <main className="my-16">
-      <Header />
-      <GameHub />
-      <YourGames />
+    <main>
+      <div className="mx-20">
+        <Header />
+        <GameHub />
+        <YourGames />
+      </div>
     </main>
   )
 }
