@@ -10,7 +10,6 @@ function Header() {
 					<h1 className="mb-5 font-mono font-normal uppercase text-8xl text-shadow text-shadow-red">Join Into Your</h1>
 					<h1 className="mb-5 font-mono font-normal uppercase text-8xl text-shadow text-shadow-red "> Favorite</h1>
 					<h1 className="mb-5 font-mono font-normal uppercase text-8xl text-shadow text-shadow-red hover:text-shadow-lg hover:text-purple-500">Games</h1>
-
 				</div>
 			</div>
 		</div>
