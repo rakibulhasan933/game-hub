@@ -1,3 +1,4 @@
+import FreeGamesBanner from "@/components/FreeGamesBanner";
 import GameHub from "@/components/GameHub";
 import Header from "@/components/Header";
 import SelectedBanner from "@/components/SelectedBanner";
@@ -14,6 +15,7 @@ export default function Home() {
         <SelectedBanner />
         <YourGames />
         <YourGameBio />
+        <FreeGamesBanner />
       </div>
     </main>
   )
