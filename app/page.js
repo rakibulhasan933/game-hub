@@ -7,7 +7,7 @@ import YourGames from "@/components/YourGames";
 export default function Home() {
   return (
     <main>
-      <div className="mx-20">
+      <div>
         <Header />
         <GameHub />
         <SelectedBanner />

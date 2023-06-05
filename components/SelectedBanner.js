@@ -3,7 +3,7 @@ import React from 'react'
 
 function SelectedBanner() {
 	return (
-		<div className='my-20'>
+		<div className='mx-40 my-18'>
 			<div className="flex items-center justify-between">
 				<div className="flex items-center justify-center ">
 					<Image className='object-cover ' src='/assets/select your games/pngimg 11.png' alt='game' height={160} width={160} />
